@@ -4,6 +4,10 @@
   "version": "1.0.0",
   "description": "Takeoff RAG Course",
   "main": "index.js",
+  "engines": {
+    "node": ">=22.0.0 <23.0.0",
+    "npm": ">=10.9.0 <10.10.0"
+  },
   "scripts": {
     "db:generate:basics": "npx drizzle-kit generate --config=./sections/1-learn-the-basics/drizzle.config.ts",
     "db:migrate:basics": "npx drizzle-kit migrate --config=./sections/1-learn-the-basics/drizzle.config.ts"
